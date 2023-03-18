@@ -27,16 +27,24 @@ class Solution:
         # for k,v in anagramDict.items():
         #     result.append(v)
             
-        # return result  
+        # return result 
+        #create a hashmap
         hashmap={}  
 
+        
+        #iterate through the strs string 
         for s in strs:
+            #if the sorted values are same then add i to sortedstr
             sortedStr = "".join(sorted(s))
+            #if the sorted string is already is hashmap
             if sortedStr in hashmap:
+                #then return the value of the specific key
                 hashmap[sortedStr].append(s)
 
+            #if the sorted string is not in hashmap add the key to the hashmap
             else:
                 hashmap[sortedStr] = [s]
+        #returning all the hashmap values
         result = hashmap.values()
 
         return result
