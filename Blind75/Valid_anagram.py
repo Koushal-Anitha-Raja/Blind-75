@@ -14,7 +14,7 @@ class Solution:
         for ch in t:
             #subtract the ASCII value of character with small "a" to find the actual value of charcater and decrement it to one
             bucket[ord(ch)-ord("a")]-=1
-            3if the length ar eequal then it should be less than one i we had a invalid anagram
+            #if the length ar eequal then it should be less than one i we had a invalid anagram
             if bucket[ord(ch)-ord('a')] < 0:
                 #so return false
                 return False
