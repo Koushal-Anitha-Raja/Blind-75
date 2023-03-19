@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         #assign left and right pointers to zero and first position
