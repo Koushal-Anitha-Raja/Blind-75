@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         #creating a dummy listnode
