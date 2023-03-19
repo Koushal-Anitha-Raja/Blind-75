@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         #assigning a previous node  before head
