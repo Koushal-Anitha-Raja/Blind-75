@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def rob(self, nums: List[int]) -> int:
         #if the length of the nums is only two return max between then
