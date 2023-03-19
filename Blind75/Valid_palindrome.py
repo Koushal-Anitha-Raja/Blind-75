@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def isPalindrome(self, s: str) -> bool:
 #low var as zero
