@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(26)
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         #if the length of s and t is not equal 
