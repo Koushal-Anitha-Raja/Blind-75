@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def climbStairs(self, n: int) -> int:
         #assign two variables as initial value one
