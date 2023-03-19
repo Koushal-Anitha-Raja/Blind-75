@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         #d var for lenght of nums
