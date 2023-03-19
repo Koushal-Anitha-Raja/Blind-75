@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(n)
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         # #creating a hashmap
