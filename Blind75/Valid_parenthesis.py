@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(n)
 class Solution:
     def isValid(self, s: str) -> bool:
 
