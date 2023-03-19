@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def rob(self, nums: List[int]) -> int:
         #if the list has only one element return it 
