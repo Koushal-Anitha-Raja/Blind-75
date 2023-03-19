@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         #lenght of the a
