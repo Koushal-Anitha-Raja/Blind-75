@@ -1,3 +1,5 @@
+#TC:0()
+#SC:0(3n)
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         #curr min variable to nums[0]
