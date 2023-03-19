@@ -1,3 +1,5 @@
+#TC:0(2n)
+#SC:0(1)
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         
