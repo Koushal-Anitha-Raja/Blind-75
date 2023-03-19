@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         low=0
