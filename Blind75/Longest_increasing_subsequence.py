@@ -1,3 +1,5 @@
+#TC:0(n*n)
+#SC:0(n)
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
     #     array = [nums[0]]
