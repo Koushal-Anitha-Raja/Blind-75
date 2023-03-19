@@ -1,3 +1,5 @@
+#SC:0(n*n)
+#SC:0(n)
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         # previous row with 1 to the length of n
