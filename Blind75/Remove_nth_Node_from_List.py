@@ -1,4 +1,5 @@
-
+#TC:0(n)
+#SC:0(1)
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         #initializing the count variable
