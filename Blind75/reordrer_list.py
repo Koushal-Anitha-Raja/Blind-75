@@ -1,4 +1,4 @@
-t)b is same as 0(n)
+#TC:0(3n) is same as 0(n)
 #SC:0(1)
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
