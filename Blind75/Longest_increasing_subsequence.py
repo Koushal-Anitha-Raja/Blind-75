@@ -2,6 +2,7 @@
 #SC:0(n)
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
+        #nlogn
     #     array = [nums[0]]
     #     for i in range (1, len(nums)):
 
@@ -29,7 +30,7 @@ class Solution:
             
             
     
-        #(n)2 timecomplexity
+     
 
         n = len(nums)
         dp = [1]*n
