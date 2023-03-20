@@ -2,7 +2,7 @@
 #SC:0(n)
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
-        #nlogn
+        #TC:0(nlogn)
     #     array = [nums[0]]
     #     for i in range (1, len(nums)):
 
