@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(h)
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         

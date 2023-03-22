@@ -1,3 +1,5 @@
+#TC:0(n)
+#SC:0(h)    
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
     #bfs approach
