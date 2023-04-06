@@ -33,17 +33,16 @@ from heapq import heappush, heappop
 
 def minMeetingRoom(intervals):
     if not intervals:
-        return 0
+        return []
     
     intervals.sort(key=lambda x: x[0])
     rooms = []
+    heappush(rooms,intervals[0][1])
 
-    for interval in intervals:
-        if rooms and interval[0] < rooms[0]:
-            heappush(rooms, interval[1])
-        else:
+    for interval in intervals[1:]:
+        if interval[0] >= rooms[0]:
             heappop(rooms)
-            heappush(rooms, interval[1])
+        heappush(rooms, interval[1])
     return len(rooms)
 
-print(minMeetingRoom([[0,30],[5,10],[15,20]]))
+print(minMeetingRoom([[0,30],[5,15],[15,20]]))
